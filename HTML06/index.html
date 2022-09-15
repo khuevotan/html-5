@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- THẺ BLOCK 
+    <form action=""></form>
+    
+    THẺ INLINE
+    <label for=""></label>
+
+    THẺ INLINE-BLOCK 
+    <input type="text"> <button></button> 
+        Tất cả các thẻ để lấy dữ liệu người dùng đều nằm trong
+        thẻ form
+            để gửi được file thì phải có enctype="multipart/form-data"
+
+            id để label nó nhận
+            có name là tên để gửi đi
+    -->
+
+
+    <form action="xuly.html" method="GET" style="border: 2px solid red;" enctype="multipart/form-data">
+        <!-- input nhap ky tu -->
+        <label for="tk">Tài khoản: </label>
+        <input name="tk" id="tk" type="text" placeholder="Điền tài khoản" value="khue">
+        <!-- input nhap dữ liệu ẩn  -->
+        <br>
+        <label for="mk">Mật khẩu: </label>
+        <input type="password" name="mk" id="mk" placeholder="Điền mật khẩu">
+        <!-- input nhập số -->
+        <br>
+        <input type="number" name="num" placeholder="Điền số">
+        <br>
+        <!-- Uplad file -->
+        avatar: <input name="img" type="file">
+        <br>
+        <!-- Lựa chọn nhiều dữ liệu -->
+        nodejs <input type="checkbox" name="khoa-hoc" value="nodejs">
+        PHP <input type="checkbox" name="khoa-hoc" value="PHP" checked>
+        python <input type="checkbox" name="khoa-hoc" value="python">
+        <br>
+
+        <!-- Lựa chọn 1 trong nhiều dữ liệu -->
+        Nam <input type="radio" name="gioi-tinh" value="Nam" checked>
+        Nữ <input type="radio" name="gioi-tinh" value="Nữ">
+        <br>
+        <!-- Lựa chọn giá trị tương ứng  chưa đầy đủ-->
+        <label for="nam-sinh">Năm sinh</label>
+        <select name="nam-sinh" id="nam-sinh">
+            <option value="1991">1991</option>
+            <option selected value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+        </select>
+
+        <br>
+        <!-- Lựa chọn giá trị tương ứng đầy đủ-->
+        <select name="luachon">
+            <optgroup label="Cấp độ">
+                <option value="level 1">Level 1</option>
+                <option selected value="level 2">Level 2</option>
+                <option value="level 3">Level 3</option>
+            </optgroup>
+            <optgroup label="Khóa học">
+                <option value="php">php</option>
+                <option value="laravel">laravel</option>
+                <option value="nodejs">nodejs</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <!-- Chứa code html hoặc nội dung blog -->
+        <textarea name="noi-dung">
+            <h1>CODE</h1>
+            <p>Chia se kien thuc</p>
+        </textarea>
+
+        <br>
+        <!-- input submit và button submit tương tự như nhau nhưng input ít dùng hơn -->
+        <!-- <input type="submit" value="Gửi dữ liệu"> -->
+        <button type="submit">Gửi dữ liệu</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>

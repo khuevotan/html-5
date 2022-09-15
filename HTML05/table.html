@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <TABLE>
+        Thẻ <table></table> để xác định một cái bảng
+        thẻ <tr></tr> xác định một hàng trong bảng
+        <th></th> xác định một ô (tiêu đề) bên trong hàng. chú ý: mặc định nội dung căn giữa ô 2 chiều
+        <td></td> xác định một ô (bình thường) bên trong hàng. chú ý: mặc định nội dung căn giữa theo chiều dọc
+        Gộp ô
+            colspan = "số ô muốn gộp lại với nhau"
+            rowspan= " số ô muốn gộp lại với nhau"
+        Tạo một cái tiêu đề cho bảng
+            <caption align="[top, bottom]">tiêu đề của bảng</caption>
+
+        thẻ xác định thành phần trong bảng
+        khi in ra thống kê, in ấn
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot></tfoot> 
+        Khi table co width="" thi moi nen chia %
+    
+            -->
+
+
+
+    <table border="1px" cellspacing="0px" cellpadding="10px" bgcolor="red" width="600px">
+        <tr>
+            <th width="33.33%">Họ Tên</th>
+            <th width="33.33%">Giới Tính</th>
+            <th width="33.33%">Ngày Sinh</th>
+        </tr>
+        <tr>
+            <td align="center">Võ Tấn Khuê</td>
+            <td>Nam</td>
+            <td>6-9-2001</td>
+        </tr>
+    </table>
+
+    <h1>Bang nang cao</h1>
+    <table border="1px" cellsapcing="0px">
+        <caption align="bottom">Bảng thông tin</caption>
+       <thead>
+        <tr>
+            <th rowspan="2">
+                STT
+            </th>
+            <th rowspan="2">
+                Họ tên
+            </th>
+            <th colspan="2">
+                Giới tính
+            </th>
+            <th rowspan="2">
+                Chức vụ
+            </th>
+        </tr>
+        <tr>
+            <th>Nam</th>
+            <th>Nữ</th>
+        </tr>
+       </thead>
+      <tbody>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+        <tr height="100px">
+            <td>1</td>
+            <td>Võ Tấn Khuê</td>
+            <td>X</td>
+            <td></td>
+            <td>Lớp Phó</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="5"> Đây là footer</td>
+      </tfoot>
+    </table>
+
+</body>
+
+</html>

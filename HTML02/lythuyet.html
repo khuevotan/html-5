@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    cấu tạo thì chia làm 2 loại nhưng kiểu thẻ chia  làm 3 loại là block, inliine, và inline-block
+
+trong đó:
+
+thẻ  block chiếm nhiều nhất có thể nhưng có thể thay đổi chiều cao, ngang
+
+inliine mình không thể thay đổi chiều cao, rộng trong thẻ đó (nội dung bao nhiêu thì nó chiếm bấy nhiêu)
+
+inline-block có thể thay đổi chiều cao, ngang nhưng không chiếm nhiều
+
+    Các thẻ thuộc nhóm có thuộc tính block 
+
+    Khu vực đầu trang
+    <header>
+
+    Khu vực chứa link danh mục (menu)
+    <nav>
+
+    Định nghĩa thân trang, có cũng được không có cũng được. dài quá thì dùng select
+    <main>
+
+    Định nghĩa nội dung quan trọng trong trang, định nghĩa 1 bài viết hoặc 1 nội dung riêng biệt
+    <article></article>
+
+    Chứa các nội dung chính, nó sẽ chứa các thẻ <article></article> Định nghĩa nội dung quan trọng trong trang
+    <section></section>
+
+    Định nghĩa nội dung bên ngoài nội dung chính (quảng cáo) cũng nên có nội dung liên quan đến nội dung chính
+    <aside></aside>
+
+    Khu vực cuối trang
+    <footer></footer>
+
+    Định nghĩa các khu vực nhỏ thành các khu vực lớn
+    <div></div>
+
+    Khu vực tạo ra hiệu ứng chuyển động, va chạm bằng javascript
+    <canvas></canvas>
+
+    ít sử dụng nhất, khu vực chưa thông tin liên hệ thường ở cuối trang
+    <address></address>
+
+    thẻ chứa ảnh và chứa thông tin về ảnh, rất ít dùng
+    <figure></figure>
+    <figcaption></figcaption>
+
+    càng về sau càng ít quan trọng
+    thẻ h1 nên chỉ sử dụng một lần duy nhất trong một trang. vào trang cụ thể nó nên trùng với tiêu đề thanh trình duyệt
+    thẻ tiêu đề trong nội dung chính của trang
+    <h1>Thẻ</h1>
+    <h2>Thẻ</h2>
+    <h3>Thẻ</h3>
+    <h4>Thẻ</h4>
+    <h5>Thẻ</h5>
+    <h6>Thẻ</h6>
+
+    Bot google sẽ đọc trang web theo trình tự: Thẻ tiêu đề, meta, h1 -> h6, thẻ b (in đậm)
+    rồi nó đi theo khu vực 
+
+    Định nghĩa đoạn văn bản
+    <p>Thẻ văn bản</p>
+    
+    
+    Thẻ danh sách - ít dùng 
+    Định nghĩa 1 danh sách, 3 thẻ này phải đi cùng nhau
+    <dl>
+        Định nghĩa một đề mục thuộc dl
+        <dt>Đề mục 1</dt>
+        Định nghĩa một đề mục thuộc dt
+        <dd>phụ mục 1</dd>
+        <dd>phụ mục 2</dd>
+        <dd>phụ mục 3</dd>
+
+        <dt>Đề mục 2</dt>
+        <dd>phụ mục 1</dd>
+        <dd>phụ mục 2</dd>
+        <dd>phụ mục 3</dd>
+    </dl>
+
+    Danh sách có thứ tự
+    <ol type="I">
+        <li>Danh sách 1</li>
+        <li>Danh sách 2</li>
+        <li>Danh sách 3</li>
+    </ol>
+
+    <ul>
+        <li>Danh sách 1</li>
+        <li>Danh sách 2</li>
+        <li>Danh sách 3</li>
+    </ul>
+
+    thẻ gạch ngang 
+    <hr>
+
+    thẻ hiển thị dữ liệu đã được format, sắp xếp sao đẹp
+    <pre></pre>
+
+    <form action=""></form>
+
+
+    Cấu trúc chuẩn
+    <header>
+        <nav></nav>
+    </header>
+    hoặc 
+    <nav>
+
+    </nav>
+    <main>
+        <section>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+        <section>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+        <section>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+</html>

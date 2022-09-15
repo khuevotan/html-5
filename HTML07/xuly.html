@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dữ liệu nhận được</title>
+</head>
+<body>
+    <div id="ketQua" align="center" style="font-size: 25px;"></div>
+    
+    <script>
+        let danhSach=document.getElementById('ketQua');
+        new URLSearchParams(window.location.search).forEach((value,name)=>{
+            danhSach.append(`Key: ${name} -> ${value}`)
+            danhSach.append(document.createElement('br'))
+        })
+    </script>
+</body>
+</html>
